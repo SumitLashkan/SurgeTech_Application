@@ -34,7 +34,7 @@ function App() {
   }
 
   const { user } = useSelector((state) => state.profile);
-
+  
   return (
     <div className="w-[100vw] min-h-[100vh] bg-richblack-900 flex flex-col font-Inter">
       {/* <Navbar /> */}
